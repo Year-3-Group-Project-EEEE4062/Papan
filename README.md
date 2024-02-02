@@ -1,8 +1,12 @@
 # **BoatBoat**
+
 ## Controller
+Fuzzy logic controller to get norm left and right motor speed from LUT
+
 ### Requirements before using controller
-Controller 1
+GPS module, IMU (6DOF)
+
 ```
-abcdefg
+Hello Thank You!
 ```
 
