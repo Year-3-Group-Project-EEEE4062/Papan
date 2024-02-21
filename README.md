@@ -11,7 +11,7 @@ Normalized left and right motor speed : <br />
 </p>
 
 ## Arduino
-Export the surface to LUT and stored in header file.
+Export the surface to LUT and as csv files.
 
 
 
