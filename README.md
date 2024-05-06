@@ -11,7 +11,7 @@ Other repository of the project:
 
 [Boat LoRa](https://github.com/Year-3-Group-Project-EEEE4062/Boat-LoRa)
 
-[Boat LoRa](https://github.com/Year-3-Group-Project-EEEE4062/Arduino-Temperature)
+[Temperature measuring mechanism](https://github.com/Year-3-Group-Project-EEEE4062/Arduino-Temperature)
 
 
 ## Flowchart for Autonomous Mode
