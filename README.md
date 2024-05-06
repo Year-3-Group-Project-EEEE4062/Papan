@@ -3,6 +3,17 @@
 ## Description
 This project aims to design and development of an autonomus boat is proposed to perform subsurface temperature measurement in lakes and rivers. The prototype has 2 mode mainly remote and autonomous mode.
 
+Other repository of the project: 
+
+[Arfanify mobile application](https://github.com/Year-3-Group-Project-EEEE4062/Arfanify)
+
+[Medium](https://github.com/Year-3-Group-Project-EEEE4062/Medium)
+
+[Boat LoRa](https://github.com/Year-3-Group-Project-EEEE4062/Boat-LoRa)
+
+[Boat LoRa](https://github.com/Year-3-Group-Project-EEEE4062/Arduino-Temperature)
+
+
 ## Flowchart for Autonomous Mode
 <p align="center">
   <img src="https://github.com/Year-3-Group-Project-EEEE4062/Papan/assets/95087043/4ade9aee-2ca4-4807-bbfa-616502d797ac"/>
