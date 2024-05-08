@@ -236,24 +236,23 @@ class FuzzyClass:
         angle_diff = self.calc_angle(self.init_angle, angle)
     
         left, right = self.boat_controller.fuzzy_controller(1, 0, angle_diff/180.0, self.norm_left_motor_speed, self.norm_right_motor_speed)
-        
-        right = right * 0.5
+        left *= speed  # Maximum speed for left motor.
+        right *= speed  # Maximum speed for right motor.
         
         # Forward mode.
         if mode == 1:
             GPIO.output(20, GPIO.LOW)
             GPIO.output(21, GPIO.HIGH)
+            self.l_motor.ChangeDutyCycle(left)
+            self.r_motor.ChangeDutyCycle(right)
         
         # Reverse mode.
         elif mode == 2:
             GPIO.output(20, GPIO.HIGH)
             GPIO.output(21, GPIO.LOW)
+            self.l_motor.ChangeDutyCycle(right)
+            self.r_motor.ChangeDutyCycle(left)
 
-        left *= speed  # Maximum speed for left motor.
-        right *= speed  # Maximum speed for right motor.
-        self.l_motor.ChangeDutyCycle(left)
-        self.r_motor.ChangeDutyCycle(right)
-    
         print("Init Angle =", self.init_angle, ", Angle =", angle, ", Diff Angle =", angle_diff, f", Left Motor = {left:.2f}", f", Right Motor = {right:.2f}")
             
                         
